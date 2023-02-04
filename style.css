@@ -37,7 +37,7 @@ header {
    align-content: center;
    position: relative;
    z-index: 200;
-   background-color: #33afb7;
+/*    background-color: #33afb7; */
    align-items: center;
   justify-items: start;
  }
@@ -91,7 +91,7 @@ header.sticky nav i {
 /* 轮播图 */
 .glide {
   position: relative;
-  /*top: -80px;*/
+  top: -100px;
   z-index: 50;
 }
 
