@@ -118,11 +118,13 @@ header.sticky nav i {
   justify-content: center;
 }
 
-.slide-caption h1 {
+.slide-caption h1 {  
+  font-family:宋体;
   font-size: 54px;
   font-weight: 600;
 }
 .slide-caption h4 {
+    font-family:宋体;
   font-size: 54px;
   font-weight: 600;
   color:#0c88e8 ;
