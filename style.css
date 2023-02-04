@@ -224,8 +224,8 @@ section {
 
 /* 关于我们 */
 .about-us {
-  padding-bottom: 32px;
-  padding-top: 72px;
+/*   padding-bottom: 32px;
+  padding-top: 72px; */
 }
 
 .features {
@@ -267,7 +267,7 @@ section {
 .showcases {
   max-width: unset;
   padding: 0px;
-  padding-top: 72px;
+/*   padding-top: 72px; */
 }
 
 .filter-btns {
@@ -488,7 +488,7 @@ section {
 /* 公司动态 */
 .company-activities {
   margin-top: 0px;
-  padding-top: 72px;
+/*   padding-top: 72px; */
 }
 
 .activities {
