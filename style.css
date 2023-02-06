@@ -325,7 +325,10 @@ section {
 .service {
   padding-top: 131px;
 }
-
+.service h3{
+  font-family:NSimSun;
+ color: var(--text-color-dark-gray);
+}
 .services {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
