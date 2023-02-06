@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif;
+   font-family:STHeiti，Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif,微软雅黑;
   font-size: 24px;
   line-height: 1.42857143;
 }
@@ -22,7 +22,7 @@ img {
   --text-color-gray: #8b8b8b;
   --text-color-dark-gray: #727272;
   --text-color-light-gray: #c6c6c6;
-
+  /*text-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);*/
 }
 
 /* 栅格布局 */
@@ -30,6 +30,7 @@ header {
    width: 100vw;
    height: 80px;
    display: grid;
+font-family:Helvetica, "PingFang SC", "Microsoft Yahei", sans-serif,微软雅黑;
    padding: 0 40px ;
 
    /*grid-template-columns: 1fr 2fr 3fr;*/
@@ -37,7 +38,7 @@ header {
    align-content: center;
    position: relative;
    z-index: 200;
-/*    background-color: #33afb7; */
+   /*background-color: #33afb7;*/
    align-items: center;
   justify-items: start;
  }
@@ -69,7 +70,8 @@ header.burger {
 header.sticky {
   position: fixed;
   background-color: white;
-  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.1);
+
   animation: dropDown 0.5s ease-in-out forwards;
 }
 
@@ -118,13 +120,13 @@ header.sticky nav i {
   justify-content: center;
 }
 
-.slide-caption h1 {  
+.slide-caption h1 {
   font-family:宋体;
   font-size: 54px;
   font-weight: 600;
 }
 .slide-caption h4 {
-    font-family:宋体;
+  font-family:宋体;
   font-size: 54px;
   font-weight: 600;
   color:#0c88e8 ;
@@ -203,6 +205,7 @@ section {
 .title1 {
   font-size: 34px;
   color: var(--text-color-darker);
+ 
 }
 
 .title1::after {
@@ -213,6 +216,7 @@ section {
   background-color: var(--primary-color);
   margin-top: 14px;
   transform: translateX(10%);
+
 }
 
 .intro {
@@ -227,10 +231,11 @@ section {
 .intro h3 {
   font-family:NSimSun;
 }
+
 /* 关于我们 */
 .about-us {
-/*   padding-bottom: 32px;
-  padding-top: 72px; */
+  /*padding-bottom: 32px;*/
+  /*padding-top: 72px;*/
 }
 
 .features {
@@ -272,7 +277,7 @@ section {
 .showcases {
   max-width: unset;
   padding: 0px;
-/*   padding-top: 72px; */
+  /*padding-top: 72px;*/
 }
 
 .filter-btns {
@@ -496,7 +501,7 @@ section {
 /* 公司动态 */
 .company-activities {
   margin-top: 0px;
-/*   padding-top: 72px; */
+  /*padding-top: 72px;*/
 }
 
 .activities {
@@ -774,6 +779,7 @@ footer {
 
 @media(max-width: 992px){
   .slide-caption h1 {
+
     font-size: 48px;
   }
 
