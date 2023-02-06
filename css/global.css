@@ -293,7 +293,7 @@ body {
 
 .common_title {
 	width: 1100px;
-	background: url('../images/title_bg.png') repeat-x center 10px;
+	background: url('../static/images/title_bg.png') repeat-x center 10px;
 	text-align: center;
 }
 
