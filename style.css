@@ -221,7 +221,12 @@ section {
   font-size: 18px;
   color: var(--text-color-dark-gray);
 }
-
+.intro h2 {
+  font-family:NSimSun;
+}
+.intro h3 {
+  font-family:NSimSun;
+}
 /* 关于我们 */
 .about-us {
 /*   padding-bottom: 32px;
